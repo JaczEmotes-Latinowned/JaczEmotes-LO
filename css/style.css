@@ -5,7 +5,13 @@
     box-sizing: border-box;
     font-family: arial;
 }
-
+ae{
+  background: url(../img/Pics/O3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
 .content-all{
     width: 100%;
     display: -webkit-box;
@@ -16,8 +22,8 @@
 }
 
 .content-img{
-    width: 1180px;
-    height: 280px;
+    width: 500px;
+    height: 500px;
     margin: auto;
     margin-top: 100px;
     position: relative;
@@ -32,8 +38,8 @@
 }
 
 .content-1{
-  width: 800px;
-  height: 1200px;
+    width: 1000px;
+    height: 1000px;
     position: absolute;
     top: 0;
     background: rgba(215, 40, 40, 0.9);
@@ -45,8 +51,8 @@
 }
 
 .content-2{
-    width: 800px;
-    height: 1200px;
+    width: 1000px;
+    height: 1000px;
     position: absolute;
     top: 0;
     background: rgba(215, 40, 40, 0.9);
@@ -58,8 +64,8 @@
 }
 
 .content-3{
-    width: 800px;
-    height: 1200px;
+    width: 1000px;
+    height: 1000px;
     position: absolute;
     top: 0;
     background: rgba(215, 40, 40, 0.9);
@@ -74,8 +80,8 @@
 }
 
 .content-4{
-    width: 800px;
-    height: 1200px;
+    width: 1000px;
+    height: 1000px;
     position: absolute;
     top: 0;
     background: rgba(215, 40, 40, 0.9);
@@ -88,25 +94,25 @@
 }
 
 .content-img:hover .content-1{
-    width: 150%;
+    width: 222%;
     -webkit-transition: all 900ms;
     transition: all 900ms;
 }
 
 .content-img:hover .content-2{
-    width: 150%;
+    width: 222%;
     -webkit-transition: all 300ms;
     transition: all 300ms;
 }
 
 .content-img:hover .content-3{
-    width: 150%;
+    width: 222%;
     -webkit-transition: all 500ms;
     transition: all 500ms;
 }
 
 .content-img:hover .content-4{
-    width: 150%;
+    width: 222%;
     -webkit-transition: all 700ms;
     transition: all 700ms;
 }
@@ -122,16 +128,16 @@
 .content-txt{
     position: absolute;
     top: 0;
-    width: 270px;
-    padding: 5px;
+    width: 400px;
+    padding: 10px;
     z-index: 10;
     color: white;
-    text-align: justify;
-    margin-top: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 
 .content-txt h2{
-    font-size: 25px;
+    font-size: 30px;
     opacity: 0;
     -webkit-transform: scale(0.2);
     transform: scale(0.2);
@@ -140,8 +146,8 @@
 }
 
 .content-txt p{
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 20px;
+    margin-top: 10px;
     opacity: 0;
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
@@ -172,6 +178,16 @@
 justify-content: center;
 }
 
+F {
+  background: url(../img/Pics/O1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  background-color: #000000;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
 #contenido{
   background: url(../img/Pics/O2.png);
   background-repeat: no-repeat;
@@ -196,30 +212,6 @@ p {
   padding: 3%;
   text-indent: 2%;
   text-align: justify;
-}
-
-.Menus p {
-  text-align: center;
-  float: none;
-  font-weight: bold;
-  color: #FF0400;
-}
-
-.j {
-  color: #FFF;
-  font-size: 200%;
-  line-height: 155%;
-  padding: 3%;
-  text-indent: 2%;
-  text-align: center;
-}
-.j p1 {
-  color: #FFF;
-  font-size: 120%;
-  line-height: 105%;
-  float:inherit;
-  padding: inherit;
-  text-align: center;
 }
 
 h3 {
@@ -321,11 +313,16 @@ header {
 }
 
 header #logo img{
-  margin: 5px;
+  margin: 10px;
   float: left;
-  width: 75px;
+  width: 80px;
 }
 
+header #logo img{
+  margin: 20px;
+  float: left;
+  width: 100px;
+}
 /* NAVIGATION*/
 nav {
   float: center;
@@ -340,7 +337,6 @@ nav {
 a img {
   margin-left: auto;
   margin-right: auto;
-  max-width: 90%;
 }
 nav ul li {
   font-size: 100%;
@@ -369,7 +365,7 @@ a:hover {
   color: #FF0400;
 }
 
-.FPI img {
+.FPI  img {
   display: block;
   max-width: 100%;
   float: none;
@@ -426,18 +422,10 @@ a:hover {
 }
 
 .Menus img {
-  width: 550px;
-  max-width: 550px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.Menus{
-  float: left;
-  padding: 1%;
-}
-.Menus p {
-color: #ffff;
+  width: 1080px;
+  height:520px;
+  float: none;
+  padding: 10px;
 }
 .Menus img:hover {
 color: #000000;
@@ -503,9 +491,8 @@ font-weight: bold;
 }
 
 footer {
-  background: #FF1919;
-  width: 100%;
-  overflow: auto;
+  background-color: red;
+  width: 1500px;
 }
 .icon-text {
   width: 100%;
